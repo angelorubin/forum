@@ -15,6 +15,7 @@ gulp.task('copy:fonts', function () {
 });
 
 elixir(function(mix) {
+    
     mix.sass('front.scss', 'public/css/front.css');
 
     mix.version(['css/front.css']);
