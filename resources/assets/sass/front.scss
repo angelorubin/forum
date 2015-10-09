@@ -1,11 +1,11 @@
+// Bootswatch
 @import "../bower_components/bootswatch/flatly/variables";
-@import "bootstrap";
 @import "../bower_components/bootswatch/flatly/bootswatch";
-
+// Bootstrap
+@import "bootstrap";
 @import "mixins";
-
-
+@import "variables";
+// Modules
 @import "modules/body";
 @import "modules/masthead";
 
-@import "variables";

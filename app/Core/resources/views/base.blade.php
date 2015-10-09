@@ -30,7 +30,6 @@
     </div>
     @yield('core.body')
 </div>
-<!-- /#base-container -->
-
+/#base-container
 </body>
 </html>
